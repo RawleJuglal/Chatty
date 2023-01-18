@@ -1,0 +1,25 @@
+header{
+    background-color:var(--maximum-green);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding:4px 4px;
+}
+
+.--header-fa-tractor{
+    margin:2px 2px;
+    color:var(--yellow-pantone);
+}
+
+#--header-title{
+    color:var(--honeydew);
+    text-shadow: 0 0 2px black;
+}
+.--header-fa-google{
+    background-color:whitesmoke;
+    border-radius:5px;
+    padding:5px 5px;
+    margin:2px 2px;
+    color:var(--olive-drab-3);
+}
