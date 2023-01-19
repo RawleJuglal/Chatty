@@ -16,10 +16,27 @@ header{
     color:var(--honeydew);
     text-shadow: 0 0 2px black;
 }
-.--header-fa-google{
+.--header-fa-google, .--header-sign-out{
     background-color:whitesmoke;
     border-radius:5px;
     padding:5px 5px;
     margin:2px 2px;
     color:var(--olive-drab-3);
+}
+
+#--header-sign-out-container{
+    display: flex;
+    align-items: center;
+}
+
+#--header-sign-out-text{
+    color:var(--honeydew);
+    text-shadow: 0 0 2px black;;
+    margin:0 4px;
+}
+
+@media screen and (min-width:1024px) {
+    #--header-title{
+        font-size:1.5rem;
+    }
 }
