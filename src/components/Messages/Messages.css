@@ -1,0 +1,66 @@
+#--messages-messages-container{
+    height:91vh;
+}
+
+.--messages-single-message{
+    padding:10px 10px;
+    display:flex;
+}
+
+.--messages-single-message-user{
+    justify-content: flex-end;
+}
+
+#--messages-image-container{
+    padding:0px 10px;
+}
+
+.--messages-image-container-user{
+    order:1;
+}
+
+.--messages-img{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+}
+
+#--messages-info-container{
+    border-radius:5px;
+    padding:4px 4px;
+}
+
+.--friends-speech{
+    background-color:var(--olive-drab-3);
+}
+
+.--users-speech{
+    background-color:var(--fern-green);
+}
+
+#--messages-info-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.--message-author{
+    font-weight:bold;
+    padding:2px 2px;
+    color:var(--honeydew);
+    text-shadow: 0 0 2px black;
+    text-decoration: underline;
+}
+
+.--message-text{
+    font-family: 'Montserrat', sans-serif;
+    padding:2px 2px;
+    color:var(--honeydew);
+    text-shadow: 0 0 2px black;
+}
+
+.--message-time{
+    align-self:flex-end;
+    padding:2px 2px;
+    color:var(--honeydew);
+    text-shadow: 0 0 2px black;
+}

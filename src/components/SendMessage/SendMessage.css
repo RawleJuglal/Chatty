@@ -1,0 +1,31 @@
+#--sendMessage-sendMessage-container{
+    position:relative;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:4px 4px;
+}
+
+.--sendMessage-input{
+    width:70%;
+    height:40px;
+    background-color:var(--honeydew);
+    border-color:var(--fern-green);
+    color:var(--maximum-green);
+    text-shadow: 0 0 2px whitesmoke;
+    font-size:2rem;
+}
+
+.--sendMessage-submit{
+    padding:10px 20px;
+    margin:0px 4px;
+    background-color:var(--maximum-green);
+    border-radius:5px;
+    border-color:var(--fern-green);
+    color:var(--honeydew);
+    font-size:1.2rem;
+    text-shadow:0 0 2px black;
+}

@@ -1,0 +1,12 @@
+#--chat-chat-container{
+    background:url('../../assets//chatBackground.png')
+}
+
+@media screen and (min-width:1024px){
+    #--chat-chat-container{
+        height:100vh;
+        max-width:768px;
+        margin:0 auto;
+        background-color:whitesmoke;    
+    }
+}
